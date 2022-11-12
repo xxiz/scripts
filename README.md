@@ -5,5 +5,6 @@ A collection of scripts I use to accomplish various tasks, most often downloadin
 - `www.readm.org.py` - A cli python script that scrapes [readm.org](https://readm.org/) to download manga.
 - `www1.myasiantv.cc.py` - A cli python script that uses Selenium to scrape and download episodes from [myasiantv.cc](https://myasiantv.cc/).
 - `wfetch.ps1` - a very minimal neofetch for powershell that shows: CPU, GPU, PS Version, Uptime, RAM Usage
+- `Static IP Reset.bat` - clear current static ip, and request new static ip from router
 ## Installation
 Each script has instructions commented inside about usage.
