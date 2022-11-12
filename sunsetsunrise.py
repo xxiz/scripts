@@ -1,11 +1,15 @@
+# You can run this script by running python3 sunsetsunrise.py
 import datetime, requests
 from suntime import Sun, SunTimeException
 from pytz import timezone
 
+# Enter your city's coordinates here
 lat = 49.282730
 lon = -123.120735
 time_format = "%I:%M %p"
-ntfy_id = "aaeifcaendiwodjwitow2sjeo329sjeo29dkwofjajeifiajq"
+
+# ntfy id
+ntfy_id = "YOUR_ID_HERE"
 
 sun = Sun(lat, lon)
 
