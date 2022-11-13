@@ -1,3 +1,4 @@
+name: "Notify Sunset & Sunrise Times"
 on:
   schedule:
     - cron: "00 13 * * *" # runs at 13:00 UTC/5AM Local
