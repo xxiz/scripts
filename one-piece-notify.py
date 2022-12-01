@@ -6,9 +6,10 @@ intents.message_content = True
 client = discord.Client(intents=intents)
 
 ntfy_id = os.environ['NTFY_ID']
+ntfy_server = os.environ['NTFY_SERVER']
 
 def send_ntfy_message(url, chapter_number):
-    requests.post("https://ntfy.sh/" + ntfy_id,
+    requests.post(ntfy_server + ntfy_id,
                   data=f"One Piece Chapter {chapter_number} Released @ {url}",
                   headers={
                       "Click": url,
