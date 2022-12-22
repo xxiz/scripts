@@ -13,5 +13,6 @@ A collection of scripts I use to accomplish various tasks, most often downloadin
 - `scooplist.py` - list all installed apps with scoop into a file
 - `mp3.ps1` - download mp3 from youtube and soundcloud into a folder
 - `q.ps1` & `qc.ps1` - shortcut to run [cht.sh](https://cht.sh) queries
+- `pass.ps1` - cli hastebin uploader
 ## Installation
 Each script has instructions commented inside about usage.
